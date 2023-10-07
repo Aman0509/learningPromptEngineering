@@ -1,0 +1,103 @@
+# Introduction to Prompt Engineering
+
+| Contents |
+| :--- |
+| [Brief on Artificial Intelligence](#brief-on-artificial-intelligence) |
+| [Brief on Generative AI](#brief-on-generative-ai) |
+| [Two Types of Large Language Models (LLMs)](#two-types-of-large-language-models-llms) |
+
+## Brief on Artificial Intelligence
+
+<img src="https://drive.google.com/uc?export=view&id=18lClVtYnRpX_DkKM5xzFhqSi0gcfjFcs" height="350" width="700" alt="PW Skills Tech">
+
+It's important to know that machine learning and deep learning are like building blocks of artificial intelligence (AI). Even if you're not familiar with all the technical details, the main aim is to create AI applications. In simple terms, AI includes everything related to these areas.
+
+Now, let's talk about machine learning. Machine learning is a part of AI. It gives you tools to train custom models for specific tasks, like predicting or sorting things in data. It uses math to help with tasks such as categorizing, predicting, and even making forecasts with different types of data.
+
+Deep learning is a type of machine learning. People have been thinking about it since the 1950s, wondering if computers can learn like humans. This led to the idea of neural networks. Deep learning uses these multi-layered networks to do tasks like sorting, predicting, and understanding things in data, especially when there's a lot of data to work with.
+
+In deep learning, we explore interesting ideas like artificial neural networks, convolutional neural networks (CNNs), recurrent neural networks (RNNs), which can work bidirectionally and remember information over time using LSTM networks. We also look at things like auto encoders, encoders, decoders, and Transformers. These are central to various tasks in natural language processing (NLP), like understanding sentiment, creating chatbots, summarizing text, and more.
+
+Now, let's zoom in on deep learning and talk about two main areas. First, there's something called 'generative AI,' which is part of deep learning. In generative AI, the goal is to build models that can create new content on their own, whether it's images or text. These models take input and make entirely new stuff. A specific type of model in generative AI is the 'Large Language Model' or 'LLM,' which is used to generate text. There are many other deep learning techniques, but these are the core ideas which is good for introduction purpose. Now, let's see how generative AI and LLMs fit into the bigger world of deep learning and AI.
+
+**Readings/Sources:**
+
+- [What is Generative AI And Prompt Engineering By Krish Naik - PW Skills Tech](https://www.youtube.com/watch?v=n7b9cbkj0_I)
+
+## Brief on Generative AI
+
+<img src="https://drive.google.com/uc?export=view&id=1_oxUbMLb03TTg51LZuTNdBuTyv1LXg7Q" height="350" width="700" alt="PW Skills Tech">
+
+In deep learning, we have two main types of techniques: **Discriminative AI** and **Generative AI**. Discriminative AI is quite common, and it includes methods like artificial neural networks, **Convolutional Neural Networks** (CNNs), **Recurrent Neural Networks (RNNs)**, and Transformers. These techniques are used to solve specific problems, such as text summarization, language translation, or sentiment analysis. When we talk about discriminative AI, we often mean supervised learning, where models are trained with a lot of data to solve particular tasks.
+
+On the other hand, generative AI is gaining popularity. In generative AI, we use techniques like **Generative Adversarial Networks (GANs)** and **Auto Encoders**. These models can create new content based on what they've learned from existing data. For example, they can generate new text or images. Some well-known generative AI models are GPT-3.5, GPT-4.0, and Google's PaLM 2 models. These are called **Large Language Models (LLMs)** because they've been trained on massive amounts of data and fine-tuned to generate accurate responses.
+
+Generative AI, especially LLMs, is becoming popular because it offers high accuracy without the need to train models from scratch. Companies like OpenAI provide APIs for these models, making them accessible and customizable for various industries and applications. For instance, you can use them to create chatbots tailored to specific domains like healthcare, finance, or e-commerce.
+
+> *One essential aspect of working with LLMs is 'Prompt Engineering', which involves crafting effective instructions or prompts to get the desired responses from the model.*
+
+**Readings/Sources:**
+
+- [What is Generative AI And Prompt Engineering By Krish Naik - PW Skills Tech](https://www.youtube.com/watch?v=n7b9cbkj0_I)
+
+## Two Types of Large Language Models (LLMs)
+
+<img src="https://drive.google.com/uc?export=view&id=1dowgtyoosMEd11GbEgmaYbg3KCMipyC1" alt="DeepLearning.AI">
+
+In the realm of developing large language models, often referred to as LLMs, there are essentially two main categories: **Base LLMs** and **Instruction-Tuned LLMs**. Let's delve into these distinctions:
+
+A ***Base LLM*** undergoes training to predict the next word in a sequence based on extensive text training data. This data is typically sourced from a wide range of internet and other textual sources. The aim here is to deduce the most probable word to follow in a given context.
+
+For instance, if you were to provide it with the prompt
+
+```
+Once upon a time there was a unicorn,
+```
+it might complete the sentence with something like:
+
+```
+that lived in a magical forest with all unicorn friends.
+```
+
+However, if you were to ask a factual question like:
+
+```
+What is the capital of France?
+```
+
+the base LLM might respond with a more factual and information-based answer, such as,
+
+```
+What is France's largest city? OR
+What is France's population?
+```
+
+This is because it tends to generate responses based on the patterns it has learned from various internet articles, which often contain lists of factual questions.
+
+On the other hand, an ***Instruction-tuned LLM*** is where a significant portion of LLM research and application development has been concentrated. An instruction-tuned LLM is trained to follow explicit instructions.
+
+For example, if you ask it,
+
+```
+What is the capital of France?
+```
+
+it is more likely to provide a direct and factual answer like:
+
+```
+The capital of France is Paris.
+```
+
+The training process for instruction-tuned LLMs typically begins with a base LLM, which has been pre-trained on vast amounts of text data. This base model is then further fine-tuned using input-output pairs that consist of instructions and the model's attempts to follow those instructions. Often, this refinement process includes **Reinforcement Learning from Human Feedback (RLHF)** to enhance the system's ability to be helpful and follow instructions effectively.
+
+One significant advantage of instruction-tuned LLMs is that they have been specifically trained to be helpful, truthful, and non-harmful. They are less prone to generating problematic or toxic outputs compared to base LLMs. As a result, many practical applications and scenarios have shifted toward the use of instruction-tuned LLMs. While some best practices available on the internet may be more tailored for base LLMs, for most real-world applications today, we recommend that most users focus on instruction-tuned LLMs. They are easier to work with and, thanks to ongoing efforts by organizations like OpenAI and other LLM companies, they are becoming safer and more aligned with ethical guidelines and user needs.
+
+*When you're using an instruction-tuned LLM, it's a bit like giving directions to someone who's smart but doesn't know all the details of your job. Sometimes, if the LLM isn't giving you the results you want, it could be because the instructions you provided weren't clear enough.*
+
+*For instance, if you ask it to write something about Alan Turing, it's a good idea to specify what aspect of Alan Turing you want to focus on. Do you want information about his scientific work, his personal life, his historical importance, or something else? Also, it helps to tell the LLM what style or tone you want the text to have. Should it sound like a professional journalist's article, or should it be more like a casual message to a friend? Being clear about these things helps the LLM understand what you're looking for.*
+
+*Imagine if you were assigning this task to a recent college graduate. If you can even tell them which parts of text to read before writing about Alan Turing, it sets them up for success in completing the task the way you want it.*
+
+**Readings/Sources**
+
+- [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
