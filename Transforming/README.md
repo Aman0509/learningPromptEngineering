@@ -242,7 +242,7 @@ tr:nth-child(even) {
 </html>
 ```
 
-<img src="https://drive.google.com/uc?export=view&id=1UG1pNLnQhikDrI0FIOW58tByMqBf_1kc" alt="PW Skills Tech">
+<img src="https://drive.google.com/uc?export=view&id=1UG1pNLnQhikDrI0FIOW58tByMqBf_1kc" alt="DeepLearning.AI">
 
 ## Spellcheck/Grammar check
 
