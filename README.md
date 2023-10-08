@@ -8,3 +8,4 @@ These notes follow the learning path as dictate by [ChatGPT Prompt Engineering f
 - [Guidelines for Prompting](Guidelines-for-Prompting/README.md)
 - [Iterative Prompt Development](Iterative-Prompt-Development/README.md)
 - [Summarizing](Summarizing/README.md)
+- [Inferring](Inferring/README.md)
