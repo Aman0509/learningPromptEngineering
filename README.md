@@ -11,3 +11,4 @@ These notes follow the learning path as dictate by [ChatGPT Prompt Engineering f
 - [Inferring](Inferring/README.md)
 - [Transforming](Transforming/README.md)
 - [Expanding](Expanding/README.md)
+- [Chatbot](Chatbot/README.md)
