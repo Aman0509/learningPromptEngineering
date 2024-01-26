@@ -1,14 +1,10 @@
 # Prompt Engineering
 
-These notes follow the learning path as dictate by [ChatGPT Prompt Engineering for Developers](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) course with addition of some more content.
+Check out this **Prompt Engineering** learning pathway.
 
-## Contents
-
-- [Introduction](Introduction/README.md)
-- [Guidelines for Prompting](Guidelines-for-Prompting/README.md)
-- [Iterative Prompt Development](Iterative-Prompt-Development/README.md)
-- [Summarizing](Summarizing/README.md)
-- [Inferring](Inferring/README.md)
-- [Transforming](Transforming/README.md)
-- [Expanding](Expanding/README.md)
-- [Chatbot](Chatbot/README.md)
+- [Prompt Engineering Guide](https://www.promptingguide.ai/)
+- [ChatGPT Prompt Engineering for Developers](ChatGPT-PE-for-Devs/)
+- [Apply prompt engineering with Azure OpenAI Service](https://learn.microsoft.com/en-us/training/modules/apply-prompt-engineering-azure-openai/)
+- [Prompt engineering techniques](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/advanced-prompt-engineering?pivots=programming-language-chat-completions)
+- [Exam AI-900: Microsoft Azure AI Fundamentals](https://learn.microsoft.com/en-us/credentials/certifications/exams/ai-900/)
+- [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/)
